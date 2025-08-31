@@ -1,4 +1,4 @@
-module go-pgsql
+module go-pgsql-helper-kit
 
 go 1.24.4
 
