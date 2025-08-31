@@ -9,9 +9,9 @@ import (
 	"fmt"
 	
 	"time"
-	"go-pgsql/pgsql/db/connection"
-	"go-pgsql/config"
-	"go-pgsql/pgsql/db/crud"
+	"go-pgsql-helper-kit/pgsql/db/connection"
+	"go-pgsql-helper-kit/config"
+	"go-pgsql-helper-kit/pgsql/db/crud"
 
 )
 
