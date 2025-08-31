@@ -12,7 +12,7 @@ This package provides easy database connection management and CRUD helpers.
 go get github.com/abhishekprakash256/go-pgsql-helper-kit
 ````
 
----
+
 
 ## ⚙️ Configuration
 
@@ -32,7 +32,7 @@ database:
 
 The `cmd/main.go` file is responsible for **loading `config.yaml`** and passing the configuration into the helper package.
 
----
+
 
 ## 🐳 Running PostgreSQL with Docker
 
@@ -48,7 +48,7 @@ docker run -d --name postgres-container \
   postgres
 ```
 
----
+
 
 ## Database Setup
 
@@ -78,9 +78,9 @@ docker run -d --name postgres-container \
    SELECT * FROM messageTable;
    ```
 
----
 
-## 📂 Project Structure
+
+## Project Structure
 
 ```
 .
@@ -100,7 +100,7 @@ docker run -d --name postgres-container \
 └── README.md
 ```
 
----
+
 
 ## Usage Example
 
