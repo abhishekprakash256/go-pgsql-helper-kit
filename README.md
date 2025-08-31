@@ -3,7 +3,7 @@
 # go-pgsql-helper-kit
 
 A lightweight helper kit for working with PostgreSQL in Go.  
-This package provides easy database connection management and CRUD helpers.
+This package provides easy database connection management and CRUD helpers for the chat message.
 
 
 ### Installation
