@@ -1,0 +1,42 @@
+pass the config in the confg.yaml file 
+
+
+all the reading of the file will be done in the main file in the cmd 
+
+running the container -- 
+
+docker run -d --name postgres-container \
+  -e POSTGRES_USER=abhi \
+  -e POSTGRES_PASSWORD=mysecretpassword \
+  -e POSTGRES_DB=test_db \
+  --network my_network \
+  -p 5432:5432 \
+  postgres
+
+
+the config file has the data for connection 
+
+the database name is -- test_db
+the table name is -- loginTable , messageTable
+
+// ---- to get the docker conatainer information 
+
+// --------------------
+docker exec -it postgres-container psql -U abhi -d test_db
+
+
+// ------- see the tables ---- 
+\dt 
+
+// ---------- list of relatives 
+\d login 
+\d message
+
+
+// to see the message 
+
+use --- 
+
+SELECT * FROM message ; 
+SELECT * FROM login ; 
+
