@@ -8,8 +8,9 @@ This package provides easy database connection management and CRUD helpers for t
 
 ### Installation
 
-```bash
+
 go get github.com/abhishekprakash256/go-pgsql-helper-kit
+
 ````
 
 
