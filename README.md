@@ -5,9 +5,8 @@
 A lightweight helper kit for working with PostgreSQL in Go.  
 This package provides easy database connection management and CRUD helpers.
 
----
 
-## 📦 Installation
+### Installation
 
 ```bash
 go get github.com/abhishekprakash256/go-pgsql-helper-kit
@@ -31,7 +30,7 @@ database:
   sslmode: "disable"
 ```
 
-👉 The `cmd/main.go` file is responsible for **loading `config.yaml`** and passing the configuration into the helper package.
+The `cmd/main.go` file is responsible for **loading `config.yaml`** and passing the configuration into the helper package.
 
 ---
 
@@ -51,7 +50,7 @@ docker run -d --name postgres-container \
 
 ---
 
-## 🗄️ Database Setup
+## Database Setup
 
 1. Connect to the container:
 
@@ -103,7 +102,7 @@ docker run -d --name postgres-container \
 
 ---
 
-## 🚀 Usage Example
+## Usage Example
 
 ```go
 package main
